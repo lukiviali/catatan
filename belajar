@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0
+}
+:root
+{
+    -pink:#F36F63;
+    -ijo:#1A4B47;
+    -abu2:#B5BAB6;
+}
+
+/* header start */
+.header
+{
+    display: flex;
+    font-family: 'Crimson Text', serif;
+    background-color: #B5BAB6;
+    height: 70px;
+    line-height: 70px;
+    justify-content: space-between;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    position: fixed;
+    top:0 ;
+    right:0 ;
+    left:0 ;
+}
+
+/* .header div
+{
+    border: 1px solid black
+} */
+
+.isiheader
+{
+    display: flex;
+    font-size: 72px;
+}
+
+.menu
+{
+    display: flex;
+    flex-basis: 30px;
+    font-size: 18px;
+}
+.menu div
+{
+    margin-right: 20px;
+}
+
+.container1
+{
+    font-family: 'Crimson Text', serif;
+    background-color: #F36F63;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 div
+{
+    font-size: 72px;
+    color: #1A4B47;
+}
+  
+.container2
+{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-evenly;
+}
+
+.container2 .card
+{
+    height: 300px;
+    background-color:#B5BAB6;
+    flex-basis: 23%;
+    border-radius: 10%;
+}
+
+.card .gambar
+{
+    height:70% ;
+    background-color: #1A4B47;
+}
+
+@media screen and(max:768px)
+{
+    
+}
+
+
+/* header end */
+
+/* kalo mau bikin cursornya ada warna .container:hover
+{
+    cursor: pointer;
+    background-color: burlywood;
+} */
